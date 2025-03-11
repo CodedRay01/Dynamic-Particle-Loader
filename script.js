@@ -89,7 +89,7 @@ function blowAwayDots() {
       dot.alpha -= 0.02;
 
       if (dot.alpha > 0) {
-        ctx.fillStyle = `rgba(255, 0, 0, ${dot.alpha})`;
+        ctx.fillStyle = `rgba(239, 173, 1, ${dot.alpha})`;    // rgba(255, 0, 0, ${dot.alpha})
         ctx.beginPath();
         ctx.arc(dot.x, dot.y, 1, 0, Math.PI * 2);
         ctx.fill();
