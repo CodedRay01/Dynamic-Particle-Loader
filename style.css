@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+canvas {
+    display: block;
+}
+button {
+    position: absolute;
+    bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+background-color: transparent;
+font-size: large;
+}
+button a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 5px;
+
+}
