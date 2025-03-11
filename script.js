@@ -9,7 +9,7 @@ canvas.height = window.innerHeight;
 
 const dots = [];
 const mapleImage = new Image();
-mapleImage.src = "loader.png";
+mapleImage.src = "https://codedray01.github.io/Dynamic-Particle-Loader/loader.png";
 
 mapleImage.onload = function () {
   createDots();
