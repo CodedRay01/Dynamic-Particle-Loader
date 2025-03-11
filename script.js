@@ -59,7 +59,7 @@ function animateDots() {
     dot.x += (dot.targetX - dot.x) * 0.02;
     dot.y += (dot.targetY - dot.y) * 0.02;
     dot.alpha = Math.min(dot.alpha + 0.02, 1);
-    ctx.fillStyle = `rgba(255, 0, 0, ${dot.alpha})`;
+    ctx.fillStyle = `rgba(239, 173, 1, ${dot.alpha})`;      // rgba(255, 0, 0, ${dot.alpha})
     ctx.beginPath();
     ctx.arc(dot.x, dot.y, 1, 0, Math.PI * 2);
     ctx.fill();
